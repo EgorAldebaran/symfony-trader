@@ -8,11 +8,21 @@ use Symfony\Component\Routing\Annotation\Route;
 
 class TraderController extends AbstractController
 {
-    #[Route('/trader', name: 'app_trader')]
-    public function index(): Response
+    #[Route('/trader/quest', name: 'quest_trader')]
+    public function quest(): Response
     {
-        return $this->render('trader/index.html.twig', [
-            'controller_name' => 'TraderController',
-        ]);
+        return $this->render('/trader/quest.html.twig');
+    }
+    
+    #[Route('/trader/nasdaq', name: 'nasdaq_trader')]
+    public function nasdaq(): Response
+    {
+        return $this->render('/trader/nasdaq.html.twig');
+    }
+
+    #[Route('/trader/forex', name: 'forex_trader')]
+    public function forex(): Response
+    {
+        return $this->render('/trader/forex.html.twig');
     }
 }
