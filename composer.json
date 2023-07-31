@@ -7,17 +7,22 @@
         "php": ">=8.1",
         "ext-ctype": "*",
         "ext-iconv": "*",
+        "boshurik/telegram-bot-bundle": "^5.0",
         "doctrine/doctrine-bundle": "^2.10",
         "doctrine/doctrine-migrations-bundle": "^3.2",
         "doctrine/orm": "^2.15",
+        "longman/telegram-bot": "^0.81.0",
         "symfony/asset": "6.3.*",
         "symfony/console": "6.3.*",
         "symfony/dotenv": "6.3.*",
         "symfony/flex": "^2",
         "symfony/framework-bundle": "6.3.*",
+        "symfony/http-client": "6.3.*",
+        "symfony/process": "6.3.*",
         "symfony/runtime": "6.3.*",
         "symfony/twig-bundle": "6.3.*",
-        "symfony/yaml": "6.3.*"
+        "symfony/yaml": "6.3.*",
+        "telegram-bot/api": "^2.4"
     },
     "require-dev": {
         "symfony/maker-bundle": "^1.50",

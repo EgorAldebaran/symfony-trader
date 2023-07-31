@@ -5,7 +5,14 @@
 {% block body %}
 <!-- TradingView Widget BEGIN -->
 
+{{info}}
+
 <h5>привет Многоуважаемый Котик!</h5>
+
+<form method="post" action="{{path('quest_trader')}}">
+  <input type="text" name="message">
+  <input type="submit" value="START">
+</form>
 
 <img src="{{asset('./fynny_cat.jpg')}}"/>
 
