@@ -12,6 +12,8 @@
         "doctrine/doctrine-migrations-bundle": "^3.2",
         "doctrine/orm": "^2.15",
         "longman/telegram-bot": "^0.81.0",
+        "sonata-project/admin-bundle": "^4.26",
+        "sonata-project/doctrine-orm-admin-bundle": "^4.13",
         "symfony/asset": "6.3.*",
         "symfony/console": "6.3.*",
         "symfony/dotenv": "6.3.*",
@@ -73,7 +75,7 @@
     },
     "extra": {
         "symfony": {
-            "allow-contrib": false,
+            "allow-contrib": true,
             "require": "6.3.*",
             "docker": false
         }
